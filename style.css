@@ -1,0 +1,87 @@
+.nav-bar {
+  background: linear-gradient(to right, green, yellow);
+  height: 80px;
+}
+.product {
+  display: flex;
+  box-sizing: border-box;
+}
+.product-image {
+  width: 40%;
+
+  margin-left: 10%;
+  padding: 20px;
+  text-align: center;
+}
+.product-image img {
+  width: 75%;
+}
+.product-info {
+  width: 40%;
+
+  padding: 20px;
+}
+.cart {
+  display: flex;
+  margin-top: 20px;
+}
+.cart p {
+  padding: 10px;
+  display: block;
+  margin-left: 80%;
+}
+.abledBtn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  height: 50px;
+  background-color: rgb(10, 124, 255);
+  color: white;
+  border: 0px;
+}
+.abledBtn:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  height: 50px;
+  background-color: rgb(55, 124, 202);
+  color: white;
+}
+.disabledBtn {
+  background-color: rgb(187, 213, 228);
+}
+.disabledBtn:hover {
+  background-color: rgb(187, 213, 228);
+}
+button {
+  margin-top: 30px;
+}
+.colorBox {
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+}
+.review-form {
+  width: 30%;
+  margin-left: 35%;
+  border: solid 2px rgb(192, 190, 190);
+  text-align: center;
+}
+.header-form {
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.tab {
+  text-align: center;
+}
+.tab span {
+  padding: 10px;
+}
+.activeTab {
+  color: chocolate;
+  text-decoration: underline;
+}
